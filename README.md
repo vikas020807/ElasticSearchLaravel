@@ -81,7 +81,7 @@ Download Elastic Search zip
 
 ## Step 4
 
-If you wish to clone the directory , then you can skip to Step ?.
+If you wish to clone the directory , then clone the project and add env variables mentioned below and after that do composer update .
 
 - create new laravel project
 
