@@ -67,11 +67,11 @@ class ElasticsearchApp {
                 <strong class="text-blue-500 text-xl  font-mono block rounded justify-self-start">${result['title']}</strong>
                 <p class="text-gray-600 font-mono ">${result['author']}</p>
             </div>
-            <div class="p-2">
+            <div class="p-2 h-36">
                 <p class="font-light font-mono">${result['content']}</p>
             </div>
         </div>`;
-        return card;    
+        return card;
     }
 
     updateList() {
@@ -106,7 +106,7 @@ class ElasticsearchApp {
             }
             button.addEventListener("click", () => {
                 this.currentPage = i;
-                updateList(); // Re-render the list for the selected page
+                this.updateList(); // Re-render the list for the selected page
             });
             this.paginationContainer.appendChild(button);
         }
@@ -129,6 +129,7 @@ class ElasticsearchApp {
             })
             .catch((error) => {
                 console.error('Error fetching data:', error);
+                document.getElementById('error').innerHTML = response;
                 // Handle errors gracefully if needed
             })
             .finally(() => {

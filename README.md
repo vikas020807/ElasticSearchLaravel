@@ -329,7 +329,7 @@ If you wish to clone the directory , then clone the project and add env variable
 ```
 
 - Add css and js folder in public
-- Make a js file searchApp.js and this 
+- Make a js file searchApp.js and this
 
 ```text
     // searchApp.js
@@ -577,3 +577,6 @@ body {
 ```
 
 - serve the application
+- references
+  - [elastic scout driver](https://github.com/babenkoivan/elastic-scout-driver)
+  - [elastic scout driver plus](https://github.com/babenkoivan/elastic-scout-driver-plus)
