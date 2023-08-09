@@ -578,5 +578,6 @@ body {
 
 - serve the application
 - references
+- - [Ultimate Guide](https://itnext.io/the-ultimate-guide-to-elasticsearch-in-laravel-application-ee636b79419c)
   - [elastic scout driver](https://github.com/babenkoivan/elastic-scout-driver)
   - [elastic scout driver plus](https://github.com/babenkoivan/elastic-scout-driver-plus)
